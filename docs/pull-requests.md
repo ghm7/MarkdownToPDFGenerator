@@ -66,3 +66,39 @@ List known limitations, risks, or follow-up work.
 
 Any extra context for reviewers.
 ```
+
+## Example PR description
+
+```md
+## Summary
+
+Add the first version of the PDF rendering service using OpenHTMLtoPDF.
+
+## Why
+
+We need a reusable service that converts rendered HTML into a PDF output file.
+
+## Scope
+
+Included:
+
+- PDF rendering service
+- output file handling
+- exception wrapping
+
+Not included:
+
+- custom header/footer support
+- font customization
+
+## Testing
+
+- [x] Unit tests added
+- [x] Integration test added for sample HTML input
+- [x] Manual verification completed
+
+## Risks
+
+- CSS support remains limited to the renderer capabilities
+- image loading behavior will be refined in a later PR
+```
